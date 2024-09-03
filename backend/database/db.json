@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post one edited",
+      "content": "Content 1 edited. This is post description. This is post description. This is post description. This is post description. This is post description. This is post description."
+    },
+    {
+      "id": 2,
+      "title": "Post Two",
+      "content": "This is post description. This is post description. This is post description. This is post description. This is post description. This is post description. This is post description."
+    },
+    {
+      "id": 3,
+      "title": "Post Three",
+      "content": "This is post description. This is post description. This is post description. This is post description. This is post description. This is post description. This is post description. This is post description."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #111827;
+}
+
+@layer base {
+  .nav {
+    @apply flex items-center justify-between p-4 bg-gray-800 text-white
+  }
+  
+  .nav-logo {
+    @apply flex font-semibold ps-10 w-1/4
+  }
+
+  .nav-links {
+    @apply text-sm px-4 hover:text-gray-400
+  }
+
+  .body-main {
+    @apply flex flex-col gap-2 justify-start px-10 w-[600px] min-h-screen shadow-md rounded-md;
+  }
+
+  .main-header {
+    @apply flex w-full h-[60px];
+  }
+
+  .main-header-title {
+    @apply text-slate-800 text-xl font-semibold;
+  }
+
+  .primary-btn {
+    @apply bg-cyan-600 rounded justify-center p-2;
+  }
+
+  .main-link {
+    @apply bg-green-500 rounded justify-center p-2;
+  }
+
+  .main-body {
+    @apply flex flex-col gap-4 w-full;
+  }
+
+  .main-body-title {
+    @apply font-semibold
+  }
+
+  .main-body-content {
+    @apply text-slate-600
+  }
+
+  .secondary-btn {
+    @apply bg-cyan-800 rounded justify-center p-2
+  }
+
+  .danger-btn {
+    @apply bg-red-800 rounded justify-center p-2
+  }
+
+  .main-form {
+    @apply flex flex-col gap-4 w-full px-5
+  }
+}
